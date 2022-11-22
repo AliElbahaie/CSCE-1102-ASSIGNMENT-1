@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>customerwindow</class>
+ <widget class="QDialog" name="customerwindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>992</width>
+    <height>563</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <widget class="QWidget" name="gridLayoutWidget">
+   <property name="geometry">
+    <rect>
+     <x>180</x>
+     <y>60</y>
+     <width>601</width>
+     <height>411</height>
+    </rect>
+   </property>
+   <layout class="QGridLayout" name="gridLayout">
+    <item row="0" column="2">
+     <widget class="QLineEdit" name="SearchNameLineEdit"/>
+    </item>
+    <item row="0" column="0">
+     <widget class="QLabel" name="SearchProductLabel">
+      <property name="text">
+       <string>Product Name:</string>
+      </property>
+     </widget>
+    </item>
+    <item row="2" column="0">
+     <widget class="QLabel" name="CategorySearchLabel">
+      <property name="text">
+       <string>Category:</string>
+      </property>
+     </widget>
+    </item>
+    <item row="2" column="2">
+     <widget class="QLineEdit" name="SearchCategoryLineEdit"/>
+    </item>
+    <item row="2" column="4">
+     <widget class="QListView" name="CartList"/>
+    </item>
+    <item row="0" column="3">
+     <widget class="QLabel" name="CartProductNameLabel">
+      <property name="text">
+       <string>Product Name:</string>
+      </property>
+     </widget>
+    </item>
+    <item row="0" column="4">
+     <widget class="QLineEdit" name="CartProductNameLineEdit"/>
+    </item>
+    <item row="3" column="2">
+     <widget class="QPushButton" name="SearchButton">
+      <property name="text">
+       <string>Search Product</string>
+      </property>
+     </widget>
+    </item>
+    <item row="4" column="2">
+     <widget class="QListWidget" name="ProductList"/>
+    </item>
+    <item row="1" column="4">
+     <widget class="QPushButton" name="AddToCartButton">
+      <property name="text">
+       <string>Add to cart</string>
+      </property>
+     </widget>
+    </item>
+    <item row="3" column="4">
+     <widget class="QPushButton" name="ConfirmButton">
+      <property name="text">
+       <string>Confirm purchase</string>
+      </property>
+     </widget>
+    </item>
+    <item row="4" column="4">
+     <widget class="QPushButton" name="BackButton">
+      <property name="text">
+       <string>Back</string>
+      </property>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
